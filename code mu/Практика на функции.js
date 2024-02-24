@@ -32,28 +32,16 @@ function strToCharArray(str) {
 
 console.log(strToCharArray('hola'))
 
- № 4
-Сделайте
-функцию, которая
-параметром
-будет
-принимать
-строку
-и
-переворачивать
-ее
-символы
-в
-обратном
-порядке.function
-reversedStr(str)
-{
+// Сделайтефункцию, которая параметромбудет принимать строку и переворачивать ее символы в обратном порядке.
+
+function reversedStr(str) {
     let newStr = '';
     for (let i = str.length - 1; i >= 0; i--) {
         newStr += str[i];
     }
     return newStr;
 }
+
 console.log(reversedStr('Hello'));
 
 // № 5 Сделайте функцию, которая параметром будет принимать строку и делать заглавной первую букву этой строки.
